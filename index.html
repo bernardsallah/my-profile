@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bernard Sallah — Cybersecurity & Data Analytics</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="container nav">
+      <div class="brand">Bernard<span class="accent">.</span></div>
+      <ul class="nav-links" aria-label="Main navigation">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#leadership">Leadership</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME / HERO -->
+    <section id="home" class="hero fade-in">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Hello — I'm <span class="accent">Bernard Sallah</span></h1>
+          <p class="lead">
+            Cybersecurity & Data Analytics enthusiast. I build secure systems, analyse complex data,
+            and communicate insights that drive action.
+          </p>
+          <div class="hero-cta">
+            <a class="btn" href="#projects">Explore Projects</a>
+            <a class="btn ghost" href="#contact">Contact</a>
+          </div>
+          <p class="sm">Student • Learner • Problem-solver</p>
+        </div>
+
+        <div class="hero-photo" aria-hidden="true">
+          <!-- Replace with your profile photo in assets/ -->
+          <img src="assets/personal1.jpg" alt="Bernard Sallah" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section fade-in">
+      <div class="container">
+        <h2>About</h2>
+        <p class="section-desc">
+          I’m a student focused on cybersecurity and data analysis. I enjoy combining security
+          best-practices with data-driven decision making to build resilient systems. Currently
+          learning machine learning for threat detection, building dashboards, and practicing
+          hands-on labs.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section fade-in">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="cards-grid">
+          <article class="card">
+            <img src="assets/project1.jpg" alt="Network Vulnerability Scanner thumbnail" />
+            <div class="card-body">
+              <h3>Network Vulnerability Scanner</h3>
+              <p>Python tool that uses Nmap libraries to scan and report potential issues.</p>
+              <a class="link" href="#" target="_blank" rel="noopener">View on GitHub</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="assets/project2.jpg" alt="Cyber Threat Dashboard thumbnail" />
+            <div class="card-body">
+              <h3>Cyber Threat Dashboard</h3>
+              <p>Interactive Power BI dashboard visualizing cyber incidents and trends.</p>
+              <a class="link" href="#" target="_blank" rel="noopener">View dashboard</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="assets/project3.jpg" alt="Data Insights thumbnail" />
+            <div class="card-body">
+              <h3>Data Insights Tool</h3>
+              <p>Python + Pandas pipeline to extract insights from security logs.</p>
+              <a class="link" href="#" target="_blank" rel="noopener">View code</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section fade-in">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill">
+            <h4>Cybersecurity</h4>
+            <p>Kali Linux · Nmap · Wireshark · Burp Suite · Metasploit</p>
+          </div>
+          <div class="skill">
+            <h4>Data Analysis</h4>
+            <p>Python (pandas, numpy) · SQL · Power BI · Excel · Tableau</p>
+          </div>
+          <div class="skill">
+            <h4>Programming</h4>
+            <p>Python · JavaScript · HTML · CSS</p>
+          </div>
+          <div class="skill">
+            <h4>Soft Skills</h4>
+            <p>Leadership · Communication · Problem-solving · Teamwork</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEADERSHIP -->
+    <section id="leadership" class="section fade-in">
+      <div class="container">
+        <h2>Leadership</h2>
+        <p class="section-desc">Roles where I led, organized, and mentored peers.</p>
+
+        <div class="lead-grid">
+          <div class="lead-card">
+            <h3>Vice President — Cybersecurity Club</h3>
+            <p>Organized hands-on labs, capture-the-flag events, and weekly learning sessions.</p>
+          </div>
+
+          <div class="lead-card">
+            <h3>Lead Analyst — Data Science Society</h3>
+            <p>Coordinated student projects, coached newcomers on analysis workflows and visualization.</p>
+          </div>
+
+          <div class="lead-card">
+            <h3>Class Representative & Peer Mentor</h3>
+            <p>Acted as liaison between students and faculty and supported peer learning initiatives.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section fade-in">
+      <div class="container">
+        <h2>Gallery</h2>
+        <p class="section-desc">Personal moments, events, and project screenshots.</p>
+
+        <div class="gallery-controls">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="personal">Personal</button>
+          <button class="filter-btn" data-filter="project">Projects</button>
+        </div>
+
+        <div class="gallery-grid" aria-live="polite">
+          <!-- PERSONAL -->
+          <figure class="gallery-item" data-type="personal">
+            <img src="assets/personal1.jpg" alt="Bernard at an event" data-caption="At the Cybersecurity workshop — 2025" />
+            <figcaption>Personal — Workshop</figcaption>
+          </figure>
+
+          <figure class="gallery-item" data-type="personal">
+            <img src="assets/personal2.jpg" alt="Bernard presenting" data-caption="Presenting a data talk" />
+            <figcaption>Personal — Presentation</figcaption>
+          </figure>
+
+          <!-- PROJECT -->
+          <figure class="gallery-item" data-type="project">
+            <img src="assets/project1.jpg" alt="Scanner screenshot" data-caption="Network Vulnerability Scanner output" />
+            <figcaption>Project — Scanner</figcaption>
+          </figure>
+
+          <figure class="gallery-item" data-type="project">
+            <img src="assets/project2.jpg" alt="Dashboard screenshot" data-caption="Cyber Threat Dashboard sample" />
+            <figcaption>Project — Dashboard</figcaption>
+          </figure>
+
+          <!-- add more images as needed -->
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section fade-in">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="section-desc">Get in touch for collaboration, mentorship or opportunities.</p>
+
+        <form id="contactForm" class="contact-form" aria-label="Contact form">
+          <input type="text" id="name" placeholder="Your name" required />
+          <input type="email" id="email" placeholder="Your email" required />
+          <textarea id="message" rows="5" placeholder="Your message" required></textarea>
+          <button class="btn" type="submit">Send Message</button>
+        </form>
+
+        <p class="socials">Find me: 
+          <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a> · 
+          <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a> · 
+          <a href="mailto:youremail@example.com">Email</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer">
+      <p>© <span id="year"></span> Bernard Sallah · Built with care</p>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX / MODAL -->
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Image viewer">
+    <button class="lb-close" aria-label="Close viewer">&times;</button>
+    <button class="lb-prev" aria-label="Previous image">&#10094;</button>
+    <div class="lb-content">
+      <img src="" alt="" />
+      <p class="lb-caption"></p>
+    </div>
+    <button class="lb-next" aria-label="Next image">&#10095;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
